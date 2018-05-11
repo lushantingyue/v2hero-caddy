@@ -1,2 +1,2 @@
-# v2hero-caddy
-# v2ray 一键部署 heroku [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/lushantingyue/v2hero-caddy)
+# v2hero-caddy[![Build Status](https://travis-ci.org/onplus/v2hero.svg?branch=ci)](https://travis-ci.org/onplus/v2hero)
+travis-ci分支: 利用Travis-CI部署Docker到Heroku 
