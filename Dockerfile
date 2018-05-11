@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:latest
 
 ENV CONFIG_JSON=none CERT_PEM=none KEY_PEM=none VER=3.20
 
@@ -21,6 +21,6 @@ ADD entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /entrypoint.sh 
 
-ENTRYPOINT  /entrypoint.sh 
+CMD  /entrypoint.sh 
 
 EXPOSE 8081
