@@ -1,0 +1,17 @@
+{
+  "name": "shadowsocks-heroku",
+  "description": "shadowsocks-heroku",
+  "env": {
+    "VER": {
+      "description": "v2ray版本",
+      "value": "3.20"
+    },
+    "UUID": {
+      "description": "用户uuid",
+      "value": "8fd6dadc-0d59-4ae7-93bb-e6b8a231c2c2"
+    },
+    "V2RAY_RAY_BUFFER_SIZE":{
+      "description":"每个连接的缓存大小,单位MB",
+      "value": "10"
+    }
+}
